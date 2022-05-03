@@ -46,11 +46,11 @@
                         Giá :
                         <asp:Label ID="lbGia" runat="server" Text='<%# Eval("Gia","{0: #,##0} đồng") %>'></asp:Label>
                         <br />
-                        <asp:Button ID="btAddToCard" runat="server" CssClass="btn btn-success" Text="Add to Card" />
+                        <asp:Button ID="btAddToCard" runat="server" CssClass="btn btn-success" Text="Thêm vào giỏ hàng" />
                     </div>
                 </ItemTemplate>
                 <EmptyDataTemplate>
-                    <div class="alert alert-danger" style="margin-top: 20px">Không có sản phẩm.</div>
+                    <div class="alert alert-danger" style="margin-top: 20px">Hiện chưa có sản phẩm nào trong danh mục này.</div>
                 </EmptyDataTemplate>
             </asp:ListView>
 
